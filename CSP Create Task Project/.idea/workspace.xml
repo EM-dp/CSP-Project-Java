@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce0e1542-9aa5-4658-a3bc-17d3503ab7f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Fight1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/GameCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LvlSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSP Create Task Project/com/company/Fight1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSP Create Task Project/com/company/Fight1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSP Create Task Project/com/company/GameCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSP Create Task Project/com/company/GameCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Fight1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Fight1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/GameCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GameCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,6 +85,7 @@
       <workItem from="1583430919385" duration="26000" />
       <workItem from="1583434146724" duration="8427000" />
       <workItem from="1583778193934" duration="27000" />
+      <workItem from="1583785408020" duration="2426000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,7 @@ package com.company;
 
 public class Fight1 {
     public static boolean TornadoFight(){
+
       return true;
     }
     public static boolean BangFight(){

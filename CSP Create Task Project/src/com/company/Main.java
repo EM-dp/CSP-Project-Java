@@ -4,12 +4,12 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        // Base Characters
-        GameCharacters Tornado = new GameCharacters("Tornado", 300, 180, 200, 1);
-        GameCharacters Bang = new GameCharacters("Bang", 250, 230, 230, 1);
-        GameCharacters Genos = new GameCharacters("Genos", 250, 200, 250, 1);
-        GameCharacters MetalBat = new GameCharacters("Metal Bat", 280, 200, 200, 1);
-        GameCharacters Sonic = new GameCharacters("Speed O' Sound Sonic", 270, 100, 300, 1);
+        // Base Characters and stats
+        GameCharacters Tornado = new GameCharacters("Tornado", 300, 180, 200, 1, 0);
+        GameCharacters Bang = new GameCharacters("Bang", 250, 230, 230, 1, 0);
+        GameCharacters Genos = new GameCharacters("Genos", 250, 200, 250, 1, 0);
+        GameCharacters MetalBat = new GameCharacters("Metal Bat", 280, 200, 200, 1, 0);
+        GameCharacters Sonic = new GameCharacters("Speed O' Sound Sonic", 270, 100, 300, 1, 0);
 
         System.out.println("Choose a character: \n");
         System.out.println("1: " + Tornado.charStats());
@@ -38,8 +38,7 @@ public class Main {
 
         }
 
-
-
+        LvlSystem Lvl = new LvlSystem();
+        System.out.println(Lvl.LvlUpCheck(Bang.getLvl(), Bang.getXp()));
     }
-
 }
